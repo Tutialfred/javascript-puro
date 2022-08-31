@@ -1,0 +1,193 @@
+BUCLES, iteraciones 
+
+
+    Los bucles ofrecen una forma rápida y sencilla de hacer algo repetidamente.
+
+📚Concepto
+    Tambien conocidos como loops o bucles
+    Un ciclo es un bloque de codigo que se repite hasta que una condicion se cumpla
+
+📚Ciclos de JavaScript
+    📒Ciclo for 
+        📄Sintaxis
+
+        for(inicializador; condición; incremento||decremento(Actualizacion)){
+            //Código a repetir
+        }   
+
+        📄Palabras reservadas 
+            📄Continue
+            Salta iteraciones
+        
+            📄Break
+            Rompe el ciclo
+
+    📒Ciclo while
+        📄Sintaxis
+
+        inicializador 
+        while(condicion){
+            //Codigo a repetir
+            incremento, decremento o Actualizacion
+        }
+
+    📒Otros
+        ⏺forEach()    
+        ⏺map()    
+        ⏺for(in)    
+        ⏺for(of)    
+            📄Sintaxis
+                for (variable of ArraySetMap.metodo){
+                // codigo a ejecutar
+            }
+            📄Métodos   
+                ⏺values() --> valor del key  
+                ⏺keys()   --> key (indice) (como dato numerico)
+                ⏺entries()--> Key + valor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔁While == mientras 
+    Crea un bucle que ejecuta una sentencia especificada mientras cierta 
+    condición se evalúe como verdadera. Dicha condición es evaluada antes de ejecutar la sentencia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //      HENRY CHALLANGE
+
+
+// function stringMasLarga(strings) {
+
+//     strings = ["Oscar", "tuti", "Alfredo", "Zavala", "The poochie"]
+
+
+//     for(caracter of strings){
+        
+//         console.log(caracter)
+//     }
+// // CARACTER == STRING ENTERO
+
+// for (let index = 0; index < strings.length; index++) {
+//     var element = strings[index].length;
+
+
+//     var pelea = strings[4].length
+    
+//     // console.log(element) //caracteristicas de strings  , element
+//     // console.log(pelea) //caracteristicas de strings  , element
+//     // var cuenta(strings[0].length)
+//     }
+// if(element > pelea){
+//     console.log("si si lo es");
+// } else{
+//     console.log("no no es asi");
+// }
+
+
+// }
+//     stringMasLarga()
+    

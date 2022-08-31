@@ -1,0 +1,51 @@
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+.contador{
+    text-align: center;
+    background-color: rgb(254, 235, 212);
+    padding: 40px;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sort{
+    background-color: rgb(166, 235, 235);
+    text-align: center;
+    padding: 25px;
+    font-size: 36px;
+}
+#VISA{
+    width: 30px;
+    height: 30px;
+}
+#MASTER{
+    width: 30px;
+    height: 30px;
+}
+#PAYPAL{
+    width: 30px;
+    height: 30px;
+}
+#myCheckbox{
+    width: 15px;
+    height: 15px;
+}
+/* #mybutton{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
+    outline: 2px solid rgba(248, 33, 0, 0.9);
+}
+#mybutton:hover{
+    cursor:pointer;
+}    
+
+/* new changes*/
+/* #myDiv{
+    width: 3000px;
+    height: 3000px;
+    background-color: red;
+} */ 

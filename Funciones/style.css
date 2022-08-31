@@ -1,0 +1,13 @@
+body{
+    text-align: end;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    background-color: rgb(104, 148, 134);
+}
+.estricto{
+    text-align: end;
+}
+.inspirate{
+    text-align: start;
+}

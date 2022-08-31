@@ -1,0 +1,8 @@
+
+
+// ⬜ Funciones = es un pedazo de codigo que recibe informacion, trabaja con ella y da una respuesta
+//  Funciones = Nos permite realizar una funcion o tarea en especial
+
+
+
+

@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(214, 214, 214); /*fondo de color*/
+    color: rgb(51, 15, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+p{
+    color: rgb(85, 85, 85);
+    text-decoration: underline rgb(188, 135, 29);
+}
+h1{
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px ;
+    text-shadow: 2px .5px 1px rgb(106, 169, 247);
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 5px; /* This is a commentary */
+   
+}
+#am{
+    background-color: #ccbbea;
+    font-size: 35px
+}
+.adidas{
+    border: 3px solid black;
+    box-shadow: -4px -4px 3px rgb(42, 125, 235)
+}
+
+label{
+    letter-spacing: .5px;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+
+}

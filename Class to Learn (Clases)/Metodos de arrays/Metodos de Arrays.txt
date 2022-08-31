@@ -1,0 +1,248 @@
+📚Propiedades
+    📒 length 
+        🔎 Significado
+        length = Longitud
+
+        📄Concepto
+        Regresa el numero de caracteres y espacios en blanco que tiene un string
+        Regresa el numero de elemento que hay dentro de un array
+
+        💻Uso 
+        arreglo.length
+
+📚Acceder a elemento    
+    📒 Método slice()
+        🔎 Significado
+        slice = Rebanada
+
+        📄Concepto
+        Sustraé un texto de una cadena de texto.(string)
+        Sustraé elementos de un array y genera un nuevo array sin modificar al original(array)
+
+        💻Uso 
+        arreglo.slice(posicionIncial, posicionFinal)
+
+            📍Nota:
+            Si se omite la posicionFinal, toma a todos los elementos que se encuentren despues de la posicionIncial
+
+📚Agregar elementos al array
+    📒 Método push() 
+        🔎 Significado
+        push = empujar
+
+        📄Concepto
+        Agrega uno o mas elementos al final del array.
+
+        💻Uso 
+        arreglo.push(elemento1, elemento2)
+
+    📒 Método unshift() 
+        🔎 Significado
+        unshift = cambiar de turno
+
+        📄Concepto
+        Agrega uno o mas elementos al incio del array.
+
+        💻Uso 
+        arreglo.unshift(elemento1, elemento2)
+
+    📒 Método splice() 
+        🔎 Significado
+        splice = empalmar
+
+        📄Concepto
+        Agrega uno o mas elementos al array en un indice en especial.
+
+        💻Uso 
+        arreglo.splice(indiceInsertar, cantidadEliminar, elemento1, elemento2)
+   
+    📒 Método concat() 
+        🔎 Significado
+        concatenate = concatenar
+
+        📄Concepto
+        Concatena variables con texto o viceversa.
+        Agrega elementos al final del array
+
+        💻Uso 
+        arreglo.concat(elemento1, elemento2)
+   
+📚Buscar elementos en array
+    📒 Método indexOf()
+        🔎 Significado
+        index = indice
+        of = de
+
+        📄Concepto
+        Regresa la pocision (en numeros) de donde se encuentra el caracter/palabra de un string
+        Regresa la posicion (en numeros) que tiene el elemento dentro del arreglo
+        
+        (-1 si no lo encuentra)
+
+        💻Uso 
+        arreglo.indexOf(elemento)
+
+        arreglo.indexOf(elemento, DesdeDondeBuscar(numero)→)
+
+    
+    📒 Método find()
+        🔎 Significado
+        find = encontrar
+
+        📄Concepto
+        Nos devuelve el primer elemento que cumpla con la condicion
+        Genera un nuevo array con el primer elemento del array que cumpla con la condicion
+
+        💻Uso 
+        arreglo.find(callback,condicion)
+  
+    📒 Método findIndex() 
+        🔎 Significado
+        find = encontrar
+        Index = indice
+
+        📄Concepto
+        Genera un nuevo array con el primer elemento del array que cumpla con la condicion
+
+        💻Uso 
+        arreglo.findIndex(condicion)
+
+📚Eliminar elementos en array
+    📒 Método shift()
+
+        📄Concepto
+        Elimina el primer elemento de un array 
+
+        💻Uso 
+        arreglo.shift
+
+    📒 Método pop()
+
+        📄Concepto
+        Elimina el ultimo elemento de un array 
+
+        💻Uso 
+        arreglo.pop()
+    
+    📒 Método Set()
+        🔎 Significado
+        Set = conjunto, grupo
+
+        📄Concepto
+        Elimina los elementos duplicado dentro de un array
+
+        💻Uso 
+        new Set (arreglo)
+        [...new Set (arreglo)]  →  (Para crear un nuevo array limpio, con ... y [] )
+
+    📒 Método splice() 
+        🔎 Significado
+        splice = empalmar
+
+        📄Concepto
+        Agrega uno o mas elementos al array en un indice en especial.
+        Elimina uno o mas elemento del array en un indice en especial ⛔(DELETE)
+
+        💻Uso 
+        arreglo.splice(indiceInsertar, cantidadEliminar, elemento1, elemento2)
+        arreglo.splice(indiceEliminar, cantidadEliminar) ⛔(DELETE)
+
+📚Ordenar Array
+     📒 Método sort() 
+        🔎 Significado
+        sort = Ordenar
+
+        📄Concepto
+        Ordena los elementos que se encuentran dentro de un array
+
+        💻Uso 
+        arreglo.(sort)
+
+📚 map()
+    🔎 Significado
+        map = mapa
+
+        📄Concepto
+        Transforma cada uno de los elementos de un array generando un nuevo array totalmente
+        independiente al que estamos usando 
+
+        💻Uso 
+        arreglo.map(callback)
+
+📚 filter()
+    🔎 Significado
+        filter = filtro
+
+        📄Concepto
+        Filtra todos los elementos del array que cumplan con una condicion dada y genera 
+        un array con estos, por ello, hay que guardar este nuevo array (que parte del original)
+        es una variable
+
+        💻Uso 
+        arreglo.filter(callback)
+
+📚 reduce()
+    🔎 Significado
+        reduce = reducir
+
+        📄Concepto
+        Reduce los elementos de un array a un único valor
+
+        💻Uso 
+        arreglo.reduce(funcion(parametro1,parametro2){})
+
+📚Recorrer arreglos (Tambien podrias llegar a usar ciclos, bucles)
+
+    📒 Método forEach()
+        🔎 Significado
+        for = para
+        Each = cada
+
+        📄Concepto
+        Método para aplicar una funcion para cada elemento de un array 
+        No genera un array nuevo
+
+        💻Uso 
+        arreglo.forEach(callback)
+
+    📒 Método Some ()
+        🔎 Significado
+        some = algún, algunos
+
+        📄Concepto
+        Método para saber si ALGÚN elemento de un array cumple con una 
+        condición.
+        Como resultado regresa un boolean.
+        Nota:
+        No modifica el arreglo original, crea uno nuevo (variable)
+
+        💻Uso 
+        arreglo.some(callback)
+
+    📒 Método every ()
+        🔎 Significado
+        every = todos, todo 
+
+        📄Concepto
+        Método para saber si TODOS elemento de un array cumple con una 
+        condición.
+        Como resultado regresa un boolean.
+        Nota:
+        No modifica el arreglo original, crea uno nuevo (variable)
+        Si el arreglo esta vacio, regresa true
+
+        💻Uso 
+        arreglo.every(callback)
+
+
+
+
+
+
+
+
+
+
+
+
+
